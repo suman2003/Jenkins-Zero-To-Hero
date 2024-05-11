@@ -6,9 +6,12 @@ import jenkins.model.*
 
 
 // Project variables
-String smtpServer = "smpt.example.com"
-String smtpPort = "25"
-String AdminAddress = "jenkins_admin@example.com"        // senders email adress
+// String smtpServer = "smpt.example.com"
+String smtpServer = "smtp.gmail.com"
+// String smtpPort = "25"
+String smtpPort = "587"
+// String AdminAddress = "jenkins_admin@example.com"        // senders email adress
+String AdminAddress = "suman2003engg@gmail.com"        // senders email adress
 
 
 def jenkins = Jenkins.getInstance()
