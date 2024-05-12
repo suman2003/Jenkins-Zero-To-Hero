@@ -1,4 +1,4 @@
-// import jenkins.model.*
+import jenkins.model.*
 
 // Required plugins: 
 // - email-ext
